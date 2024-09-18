@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(adventure-4381674_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left-bar {
+    width: 90%;
+    background-image:url(adventure-4381674_1280.jpg) ;
+   background-position: 100mm;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.right-bar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 50px;
+    width: 90%;
+}
+
+.right-bar-title {
+    font-size: 34px;
+    
+    
+}
+
+.right-bar-form {
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+}
+
+.field {
+    padding: 9px 14px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: rgb(226, 238, 249);
+    border-radius: 5px;
+    border: 2px solid rgb(226, 238, 249);
+}
+
+.form-btn {
+    border: none;
+    background-color: aquamarine;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.field:focus {
+    border: 2px solid rgba(20, 80, 120, 0.4);
+}
+
+textarea {
+    resize: none;
+}
